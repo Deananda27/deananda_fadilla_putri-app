@@ -1,0 +1,25 @@
+@media screen and (min-device-width: 320px) {
+	.utama {
+	  background: rgb(148,179,255);
+	  background: linear-gradient(90deg, rgba(148,179,255,1) 0%, rgba(219,133,96,0.8855917366946778) 35%, rgba(149,255,175,1) 100%);	}}
+
+
+@media screen and (min-device-width: 1080px) {		
+	.utama { 
+	  background: rgb(148,179,255);
+	  background: linear-gradient(90deg, rgba(148,179,255,1) 0%, rgba(20,212,155,0.8855917366946778) 35%, rgba(149,255,175,1) 100%);}}
+
+.utama {
+	  display: grid;
+	  grid-template-columns: auto auto;
+	  grid-gap: 10px;
+	}
+
+.lol {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  justify-content: center;
+	  font-weight: bold;
+	  padding: 16px; 
+	}
